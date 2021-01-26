@@ -73,5 +73,4 @@ jobs:
             username: ${{ secrets.SSH_USERNAME }}
             script: |
               cd /home/splx/Sites/lr-deploy-action
-              git checkout -f
               git pull origin master
