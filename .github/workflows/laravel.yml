@@ -75,3 +75,5 @@ jobs:
               cd /var/www/splx.ml
               git checkout -f
               git pull origin master
+              composer install --optimize-autoloader --no-dev
+
