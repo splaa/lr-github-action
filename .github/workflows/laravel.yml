@@ -72,6 +72,6 @@ jobs:
             key: ${{ secrets.SSH_PRIVATE_KEY }}
             username: ${{ secrets.SSH_USER }}
             script: |
-              cd /home/splx/sites/lr-deploy-action
+              cd /var/www/splx.ml
               git checkout -f
               git pull origin master
