@@ -75,5 +75,8 @@ jobs:
               cd /var/www/splx.ml
               git checkout -f
               git pull origin master
+              php -r "file_exists('.env') || copy('.env.example', '.env');"
               composer install --optimize-autoloader --no-dev
+              php artisan key:generate
+              chmod -R 777 storage bootstrap/cache
 
