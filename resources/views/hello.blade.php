@@ -421,7 +421,8 @@
             <h1 style="color: #5378b1; size: 4em">Splx</h1>
         </div>
 
-        <h1>Hello, world!</h1>
+        <h1>Анюта Привет!!!</h1>
+        <p>Приветствую тебя на сайте Анюта!</p>
     </div>
 </div>
 </body>
